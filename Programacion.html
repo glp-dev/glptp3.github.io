@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplicación en C++</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <h1>Relación entre Polinomios y C++</h1>
+
+    <p>El lenguaje C++ permite realizar operaciones con polinomios mediante el uso de estructuras como vectores o arreglos. A continuación se presenta un ejemplo:</p>
+
+    <pre>
+#include <iostream>
+
+using namespace std;
+
+
+
+int main() {
+
+    int coef[3] = {2, 3, 5}; // Representa 2x² + 3x + 5
+
+    int x = 2;
+
+    int resultado = coef[0]*x*x + coef[1]*x + coef[2];
+
+    cout<<"El resultado es: "<<resultado;
+
+    return 0;
+
+}
+    </pre>
+
+    <p>Este programa evalúa un polinomio de segundo grado en un valor específico de x.</p>
+
+    <a href="index.html">Volver al inicio</a>
+</body>
+</html>

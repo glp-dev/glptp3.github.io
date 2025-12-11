@@ -1,0 +1,51 @@
+/* CSS del sitio "Estudio de los Polinomios" */
+
+/* Se utiliza un color más cálido de fondo */
+body {
+    background-color: #CDD6D0;
+    font-family: Verdana, sans-serif;
+    padding: 30px;
+}
+
+/* Los títulos se destacan con color oscuro y subrayado */
+h1 {
+    color: #E3170A;
+    
+}
+
+/* Las imágenes se centran y tienen separación de los bordes */
+img {
+    display: block;
+    margin: 25px auto;
+    width: 350px;
+    height: auto;
+}
+
+/* Las tablas tienen color suave de fondo */
+table {
+    background-color: #D6CBC1;
+    border-collapse: collapse;
+    margin: auto;
+    width: 75%;
+}
+
+/* Bordes y espaciado de las celdas */
+th, td {
+    border: 1px solid #666;
+    padding: 8px;
+}
+
+/* Enlaces estilizados */
+a {
+    display: block;
+    color: #E16036;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+/* COMENTARIOS EXPLICATIVOS */
+/* 1. Este CSS controla el diseño general del proyecto. */
+/* 2. Se optó por un color de fondo grisaceo para diferenciarlo. */
+/* 3. Los encabezados se subrayan para dar énfasis visual. */
+/* 4. Las imágenes se centran con margen automático. */
+/* 5. Las tablas usan un estilo simple pero ordenado. */
